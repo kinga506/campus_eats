@@ -6,7 +6,7 @@ const db = pgp({
   port: process.env.DB_PORT || 5432,
   database: process.env.DB_NAME || 'campus_eats_db',
   user: process.env.DB_USER || 'postgres',
-  password: process.env.DB_PASS || 'yourpassword',
+  password: process.env.DB_PASS || '506&505100%',
 });
 
 module.exports = db;
